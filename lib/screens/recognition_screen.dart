@@ -27,7 +27,7 @@ class _RecognitionScreenState extends State<RecognitionScreen>
   bool _isLoading = false;
   final picker = ImagePicker();
   final String apiKey =
-      'AIzaSyBWdOlw4wYlQDY88RWZhhMZxv-ELAB082M'; // Store securely
+      'Enter your API key'; // Enter your google cloud api key
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   final FirebaseAuth _auth = FirebaseAuth.instance;
   String? userName;
